@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "chef_picture": "https://images.unsplash.com/photo-1607631568010-a87245c0daf8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "chef_picture": "/images/chef1.png",
     "chef_name": "Jane Smith",
     "short_bio": "Jane is a classically trained chef who loves to experiment with flavors and textures in her cooking. She specializes in Mediterranean cuisine and has worked in some of the top restaurants in the world.",
     "likes": 5000,
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "chef_picture": "https://images.unsplash.com/photo-1541614101331-1a5a3a194e92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80",
+    "chef_picture": "/images/chef2.png",
     "chef_name": "John Doe",
     "short_bio": "John is a self-taught chef who started cooking as a hobby and eventually turned it into a career. He loves to create simple, healthy dishes that are bursting with flavor.",
     "likes": 3500,
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "chef_picture": "https://plus.unsplash.com/premium_photo-1673830186179-2a1cac4ddcfc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=401&q=80",
+    "chef_picture": "/images/chef3.png",
     "chef_name": "Maria Rodriguez",
     "short_bio": "Maria grew up in a family of chefs and has been cooking since she was a child. She specializes in Latin American cuisine and loves to add a modern twist to traditional recipes.",
     "likes": 6000,
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "chef_picture": "https://images.unsplash.com/photo-1574966740793-953ad374e8fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "chef_picture": "/images/chef4.png",
     "chef_name": "David Lee",
     "short_bio": "David is a chef and restaurateur who is passionate about sustainable, farm-to-table cooking. He believes that food should be both delicious and good for the planet.",
     "likes": 8000,
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "chef_picture": "https://images.unsplash.com/photo-1595475038784-bbe439ff41e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "chef_picture": "/images/chef5.png",
     "chef_name": "Samantha Chen",
     "short_bio": "Samantha is a pastry chef who specializes in French pastries and desserts. She loves to create beautiful, intricate desserts that are as delicious as they are visually stunning.",
     "likes": 4500,
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "chef_picture": "https://images.unsplash.com/photo-1559575003-fb4ee38a747d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80",
+    "chef_picture": "/images/chef6.png",
     "chef_name": "Mike Johnson",
     "short_bio": "Mike is a BBQ pitmaster who has won numerous awards for his mouth-watering smoked meats. He believes that BBQ is a true American art form and loves to share his passion with others.",
     "likes": 7000,
