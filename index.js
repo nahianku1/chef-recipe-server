@@ -12,6 +12,13 @@ app.get("/chef-details", function (req, res) {
   res.send(chefdata);
 });
 
+app.get("/chef-details/:id", function (req, res) {
+  let id=req.params.id
+  const selectedRecipe = chefdata.find(n => n.id === Number(id));
+  res.send(selectedRecipe)
+  // res.send(chefdata);
+});
+
 app.listen(port, () => {
   console.log(`Listening on ${url}:${port}`);
 });
