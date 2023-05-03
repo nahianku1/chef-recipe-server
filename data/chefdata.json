@@ -9,6 +9,7 @@
     "years_experience": 15,
     "recipe": [
       {
+        "id": 1,
         "recipe_name": "Spaghetti Carbonara",
         "ingredients": [
           "spaghetti",
@@ -27,9 +28,11 @@
           "If the sauce is too thick, add some of the reserved cooking water to loosen it up.",
           "Season with black pepper and serve hot."
         ],
-        "rating": 4.8
+        "rating": 4.7,
+        "recipe_pic": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
       },
       {
+        "id": 2,
         "recipe_name": "Margherita Pizza",
         "ingredients": [
           "pizza dough",
@@ -51,9 +54,11 @@
           "Bake for 10-15 minutes or until the crust is golden brown and the cheese is melted and bubbly.",
           "Slice and serve hot."
         ],
-        "rating": 4.7
+        "rating": 4.7,
+        "recipe_pic": "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80"
       },
       {
+        "id": 3,
         "recipe_name": "Chicken Parmesan",
         "ingredients": [
           "chicken breast",
@@ -75,9 +80,11 @@
           "Bake in preheated oven for 25-30 minutes or until cheese is melted and bubbly.",
           "Serve hot over spaghetti."
         ],
-        "rating": 4.5
+        "rating": 4.5,
+        "recipe_pic": "https://images.unsplash.com/photo-1596818531679-96ef98b9a497?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
       },
       {
+        "id": 4,
         "recipe_name": "Lasagna",
         "ingredients": [
           "lasagna noodles",
@@ -103,7 +110,8 @@
           "Remove foil and bake for an additional 25 minutes or until cheese is melted and bubbly and lasagna is heated through.",
           "Let the lasagna cool for 10 minutes before slicing and serving."
         ],
-        "rating": 4.9
+        "rating": 4.9,
+        "recipe_pic": "https://images.unsplash.com/photo-1562923690-e274ba919781?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=476&q=80"
       }
     ]
   },
@@ -114,7 +122,95 @@
     "short_bio": "John is a self-taught chef who started cooking as a hobby and eventually turned it into a career. He loves to create simple, healthy dishes that are bursting with flavor.",
     "likes": 3500,
     "num_recipes": 3,
-    "years_experience": 8
+    "years_experience": 8,
+    "recipe": [
+      {
+        "id": 1,
+        "recipe_name": "Feijoada",
+        "ingredients": [
+          "1 pound black beans",
+          "1 pound pork shoulder",
+          "1/2 pound bacon, diced",
+          "1/2 pound sausage",
+          "2 onions, chopped",
+          "4 garlic cloves, minced",
+          "1 tablespoon olive oil",
+          "3 bay leaves",
+          "1 teaspoon dried thyme",
+          "1 teaspoon dried oregano",
+          "1 teaspoon paprika",
+          "1/2 teaspoon cumin",
+          "Salt and pepper, to taste"
+        ],
+        "cooking_method": [
+          "Soak the black beans in water overnight.",
+          "Drain the black beans and add them to a large pot.",
+          "Add enough water to cover the beans by 2 inches.",
+          "Add pork shoulder, bacon, and sausage to the pot.",
+          "Add onions, garlic, olive oil, bay leaves, thyme, oregano, paprika, cumin, salt, and pepper.",
+          "Bring the mixture to a boil and reduce heat to low.",
+          "Simmer, stirring occasionally, until the beans are tender and the meat is falling apart, about 2-3 hours.",
+          "Remove the bay leaves and serve with rice, orange slices, and hot sauce."
+        ],
+        "rating": 4.7,
+        "recipe_pic": "https://images.unsplash.com/photo-1505976378723-9726b54e9bb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      },
+      {
+        "id": 2,
+        "recipe_name": "Pão de Queijo",
+        "ingredients": [
+          "1 cup milk",
+          "1/2 cup vegetable oil",
+          "1/2 teaspoon salt",
+          "2 cups tapioca flour",
+          "2 eggs",
+          "1 cup grated cheese"
+        ],
+        "cooking_method": [
+          "Preheat oven to 400°F.",
+          "In a saucepan, combine milk, vegetable oil, and salt.",
+          "Bring the mixture to a boil and remove from heat.",
+          "Add tapioca flour and stir until a dough forms.",
+          "Add eggs one at a time, stirring until each egg is fully incorporated.",
+          "Stir in grated cheese.",
+          "Roll dough into small balls and place them on a baking sheet.",
+          "Bake for 20-25 minutes or until the pão de queijo is golden brown.",
+          "Serve hot."
+        ],
+        "rating": 4.6,
+        "recipe_pic": "https://plus.unsplash.com/premium_photo-1670895802275-ed748ced4309?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      },
+      {
+        "id": 3,
+        "recipe_name": "Moqueca",
+        "ingredients": [
+          "1 pound white fish, such as cod or halibut",
+          "1/2 pound shrimp, peeled and deveined",
+          "1 onion, sliced",
+          "3 garlic cloves, minced",
+          "1 bell pepper, sliced",
+          "1 tomato, chopped",
+          "1 tablespoon olive oil",
+          "1 can coconut milk",
+          "2 tablespoons palm oil",
+          "1 tablespoon lime juice",
+          "1 tablespoon chopped cilantro",
+          "Salt and pepper, to taste"
+        ],
+        "cooking_method": [
+          "Heat olive oil in a large skillet over medium heat.",
+          "Add onion and garlic and sauté until translucent.",
+          "Add bell pepper and tomato and sauté for another 5 minutes.",
+          "Add coconut milk and palm oil and bring to a simmer.",
+          "Add fish and shrimp and cook until the fish is cooked through and the shrimp are pink, about 10-12 minutes.",
+          "Add lime juice and chopped cilantro.",
+          "Season with salt and pepper to taste.",
+          "Serve with white rice."
+        ],
+        "rating": 4.9,
+        "recipe_pic": "https://images.unsplash.com/photo-1505253668822-42074d58a7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      }
+    ]
   },
   {
     "id": 3,
@@ -122,8 +218,94 @@
     "chef_name": "Maria Rodriguez",
     "short_bio": "Maria grew up in a family of chefs and has been cooking since she was a child. She specializes in Latin American cuisine and loves to add a modern twist to traditional recipes.",
     "likes": 6000,
-    "num_recipes": 4,
-    "years_experience": 20
+    "num_recipes": 3,
+    "years_experience": 20,
+    "recipe": [
+      {
+        "id": 1,
+        "recipe_name": "Vegemite Toast",
+        "ingredients": [
+          "2 slices of bread",
+          "Butter",
+          "Vegemite",
+          "Salt",
+          "Pepper"
+        ],
+        "cooking_method": [
+          "Preheat oven to 350°F (175°C).",
+          "Grease a 9x13 inch baking pan and dust with flour.",
+          "Combine flour, salt, and baking powder in a bowl.",
+          "In a separate bowl, cream butter and sugar until light and fluffy.",
+          "Add eggs one at a time, beating well after each addition.",
+          "Stir in vanilla extract.",
+          "Add flour mixture alternately with milk, beating until smooth.",
+          "Pour batter into prepared pan and bake for 25-30 minutes or until a toothpick inserted into the center comes out clean.",
+          "Let cake cool completely.",
+          "Cut cake into squares.",
+          "Place shredded coconut in a shallow dish."
+        ],
+        "rating": 4.5,
+        "recipe_pic": "https://images.unsplash.com/photo-1506459225024-1428097a7e18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      },
+      {
+        "id": 2,
+        "recipe_name": "Lamingtons",
+        "ingredients": [
+          "2 cups of all-purpose flour",
+          "1/2 teaspoon of salt",
+          "2 teaspoons of baking powder",
+          "1/2 cup of unsalted butter",
+          "1 cup of granulated sugar",
+          "2 large eggs",
+          "1 teaspoon of vanilla extract",
+          "1/2 cup of milk",
+          "4 cups of shredded coconut",
+          "2 cups of powdered sugar",
+          "1/3 cup of unsweetened cocoa powder",
+          "1/2 cup of milk",
+          "1/4 cup of unsalted butter"
+        ],
+        "cooking_method": [
+          "Preheat oven to 400°F.",
+          "Heat olive oil in a large skillet over medium heat.",
+          "Add onion and garlic and sauté until soft and translucent.",
+          "Add ground beef and cook until browned, breaking up any large chunks.",
+          "Sprinkle flour over beef and stir to combine.",
+          "Add beef broth, Worcestershire sauce, thyme, rosemary, salt, and pepper.",
+          "Bring mixture to a simmer and cook until slightly thickened.",
+          "Pour beef mixture into a 9-inch pie dish.",
+          "Roll out puff pastry to fit the top of the pie dish."
+        ],
+        "rating": 4.8,
+        "recipe_pic": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      },
+      {
+        "id": 3,
+        "recipe_name": "Lamb Chops with Mint Sauce",
+        "ingredients": [
+          "8 lamb chops",
+          "1/4 cup olive oil",
+          "3 garlic cloves, minced",
+          "1 tablespoon dried oregano",
+          "1/2 teaspoon salt",
+          "1/2 teaspoon black pepper",
+          "1 cup fresh mint leaves, chopped",
+          "1/4 cup red wine vinegar",
+          "1/4 cup honey",
+          "1/4 cup water"
+        ],
+        "cooking_method": [
+          "Preheat grill to medium-high heat.",
+          "In a small bowl, whisk together olive oil, garlic, oregano, salt, and pepper.",
+          "Brush mixture on both sides of the lamb chops.",
+          "Grill chops for 3-4 minutes per side or until cooked to desired doneness.",
+          "While the chops are grilling, make the mint sauce by combining the mint, vinegar, honey, and water in a blender or food processor.",
+          "Blend until smooth and serve with the lamb chops."
+        ],
+        "rating": 4.5,
+        "recipe_pic": "https://images.unsplash.com/photo-1590701390714-e979c0ccdd1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+      }
+    ]
   },
   {
     "id": 4,
@@ -131,8 +313,68 @@
     "chef_name": "David Lee",
     "short_bio": "David is a chef and restaurateur who is passionate about sustainable, farm-to-table cooking. He believes that food should be both delicious and good for the planet.",
     "likes": 8000,
-    "num_recipes": 4,
-    "years_experience": 25
+    "num_recipes": 3,
+    "years_experience": 25,
+    "recipe": [
+      {
+        "id": 1,
+        "recipe_name": "Poutine",
+        "ingredients": [
+          "French fries",
+          "Cheese curds",
+          "Gravy",
+          "Salt",
+          "Pepper"
+        ],
+        "cooking_method": [
+          "Fry the French fries until crispy.",
+          "Top the French fries with cheese curds.",
+          "Pour hot gravy over the cheese curds and fries.",
+          "Season with salt and pepper to taste."
+        ],
+        "rating": 4.5,
+        "recipe_pic": "https://images.unsplash.com/photo-1486428263684-28ec9e4f2584?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      },
+      {
+        "id": 2,
+        "recipe_name": "Maple Glazed Salmon",
+        "ingredients": [
+          "Salmon fillets",
+          "Maple syrup",
+          "Soy sauce",
+          "Garlic",
+          "Lemon"
+        ],
+        "cooking_method": [
+          "Preheat oven to 375°F (190°C).",
+          "Mix together maple syrup, soy sauce, minced garlic, and lemon juice in a small bowl.",
+          "Place salmon fillets on a baking sheet and brush the maple syrup mixture over the top of each fillet.",
+          "Bake for 12-15 minutes, or until salmon is cooked through and flakes easily with a fork."
+        ],
+        "rating": 4.7,
+        "recipe_pic": "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80"
+      },
+      {
+        "id": 3,
+        "recipe_name": "Butter Tarts",
+        "ingredients": [
+          "Pie crusts",
+          "Butter",
+          "Brown sugar",
+          "Eggs",
+          "Vanilla extract"
+        ],
+        "cooking_method": [
+          "Preheat oven to 375°F (190°C).",
+          "Roll out pie crusts and cut into circles to fit in a muffin tin.",
+          "Mix together melted butter, brown sugar, beaten eggs, and vanilla extract.",
+          "Spoon the mixture into each pie crust.",
+          "Bake for 12-15 minutes, or until the filling is set and the crust is golden brown."
+        ],
+        "rating": 4.8,
+        "recipe_pic": "https://images.unsplash.com/photo-1609269139795-8378b1090a78?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      }
+    ]
   },
   {
     "id": 5,
@@ -140,8 +382,77 @@
     "chef_name": "Samantha Chen",
     "short_bio": "Samantha is a pastry chef who specializes in French pastries and desserts. She loves to create beautiful, intricate desserts that are as delicious as they are visually stunning.",
     "likes": 4500,
-    "num_recipes": 4,
-    "years_experience": 12
+    "num_recipes": 3,
+    "years_experience": 12,
+    "recipe": [
+      {
+        "id": 1,
+        "recipe_name": "Borscht",
+        "ingredients": [
+          "beetroot",
+          "cabbage",
+          "carrots",
+          "potatoes",
+          "onion",
+          "garlic"
+        ],
+        "cooking_method": [
+          "Peel and chop the vegetables.",
+          "In a large pot, sauté the onions and garlic until fragrant.",
+          "Add the rest of the vegetables to the pot and sauté for 5 minutes.",
+          "Add water or vegetable broth to the pot and bring to a boil.",
+          "Reduce heat and let simmer until vegetables are tender.",
+          "Serve with sour cream and dill."
+        ],
+        "rating": 4.5,
+        "recipe_pic": "https://plus.unsplash.com/premium_photo-1670895801759-c686d6e638ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      },
+      {
+        "id": 2,
+        "recipe_name": "Pelmeni",
+        "ingredients": [
+          "ground beef",
+          "ground pork",
+          "onion",
+          "flour",
+          "salt",
+          "pepper"
+        ],
+        "cooking_method": [
+          "In a mixing bowl, combine the ground beef, ground pork, onion, salt, and pepper.",
+          "Roll out the dough on a floured surface.",
+          "Cut the dough into circles.",
+          "Place a small spoonful of filling on each circle.",
+          "Fold the circle in half and pinch the edges together to seal.",
+          "Boil the pelmeni in salted water until they float to the surface.",
+          "Serve with sour cream or vinegar."
+        ],
+        "rating": 4.0,
+        "recipe_pic": "https://images.unsplash.com/photo-1606101204735-85ad3a8bfd81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      },
+      {
+        "id": 3,
+        "recipe_name": "Olivier Salad",
+        "ingredients": [
+          "potatoes",
+          "carrots",
+          "peas",
+          "pickles",
+          "sausage",
+          "mayonnaise"
+        ],
+        "cooking_method": [
+          "Boil the potatoes and carrots until tender, then dice them into small pieces.",
+          "Boil the peas for 5 minutes.",
+          "Dice the pickles and sausage into small pieces.",
+          "In a mixing bowl, combine the potatoes, carrots, peas, pickles, and sausage.",
+          "Add mayonnaise and mix well.",
+          "Chill the salad for at least an hour before serving."
+        ],
+        "rating": 4.2,
+        "recipe_pic": "https://images.unsplash.com/photo-1573070640082-32bf80e3efe0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+      }
+    ]
   },
   {
     "id": 6,
@@ -149,7 +460,74 @@
     "chef_name": "Mike Johnson",
     "short_bio": "Mike is a BBQ pitmaster who has won numerous awards for his mouth-watering smoked meats. He believes that BBQ is a true American art form and loves to share his passion with others.",
     "likes": 7000,
-    "num_recipes": 4,
-    "years_experience": 18
+    "num_recipes": 3,
+    "years_experience": 18,
+    "recipe": [
+      {
+        "id": 1,
+        "recipe_name": "Maple Glazed Salmon",
+        "ingredients": [
+          "1 lb salmon fillet",
+          "1/4 cup maple syrup",
+          "2 tbsp soy sauce",
+          "2 cloves garlic, minced",
+          "1 tsp grated fresh ginger"
+        ],
+        "cooking_method": [
+          "Preheat oven to 400°F.",
+          "In a small bowl, whisk together the maple syrup, soy sauce, garlic, and ginger.",
+          "Place the salmon fillet in a baking dish and pour the maple syrup mixture over it.",
+          "Bake for 12-15 minutes, or until the salmon is cooked through.",
+          "Broil for an additional 2-3 minutes to caramelize the glaze.",
+          "Serve hot."
+        ],
+        "rating": 4.5,
+        "recipe_pic": "https://images.unsplash.com/photo-1596818532151-94f23db18997?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      },
+      {
+        "id": 2,
+        "recipe_name": "Poutine",
+        "ingredients": [
+          "2 lbs potatoes, cut into fries",
+          "1 cup cheese curds",
+          "1/4 cup flour",
+          "1/4 cup butter",
+          "2 cups beef gravy"
+        ],
+        "cooking_method": [
+          "Preheat oven to 450°F.",
+          "Toss the potato fries with flour and spread them in a single layer on a baking sheet.",
+          "Bake for 20-25 minutes, or until golden brown and crispy.",
+          "In a saucepan, melt the butter and add the beef gravy. Cook over medium heat until heated through.",
+          "Place the cooked fries in a large serving dish and sprinkle the cheese curds over them.",
+          "Pour the hot gravy over the fries and cheese curds, and serve immediately."
+        ],
+        "rating": 4.8,
+        "recipe_pic": "https://images.unsplash.com/photo-1616953882462-8a583e0afbb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80"
+      },
+      {
+        "id": 3,
+        "recipe_name": "Butter Tart",
+        "ingredients": [
+          "1/2 cup butter",
+          "1/2 cup brown sugar",
+          "1/4 cup corn syrup",
+          "1 egg",
+          "1 tsp vanilla extract",
+          "1/4 cup raisins"
+        ],
+        "cooking_method": [
+          "Preheat oven to 375°F.",
+          "In a bowl, cream together the butter and brown sugar until light and fluffy.",
+          "Beat in the corn syrup, egg, and vanilla extract until well combined.",
+          "Stir in the raisins.",
+          "Pour the mixture into a mini tart pan or muffin tin lined with pastry crust.",
+          "Bake for 12-15 minutes, or until the filling is set and the crust is golden brown.",
+          "Let cool before serving."
+        ],
+        "rating": 4.8,
+        "recipe_pic": "https://images.unsplash.com/photo-1566312235254-d4b52d8fb053?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80"
+      }
+    ]
   }
 ]

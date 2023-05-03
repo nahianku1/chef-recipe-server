@@ -11,12 +11,17 @@ app.use(cors());
 app.get("/chef-details", function (req, res) {
   res.send(chefdata);
 });
+app.get("/popular", function (req, res) {
+  let popularRecipe = chefdata.map((recipedata) =>
+    recipedata.recipe.filter((v) => v.rating > 4.7)
+  );
+  res.send(popularRecipe.flat());
+});
 
 app.get("/chef-details/:id", function (req, res) {
-  let id=req.params.id
-  const selectedRecipe = chefdata.find(n => n.id === Number(id));
-  res.send(selectedRecipe)
-  // res.send(chefdata);
+  let id = req.params.id;
+  const selectedRecipe = chefdata.find((n) => n.id === Number(id));
+  res.send(selectedRecipe);
 });
 
 app.listen(port, () => {
