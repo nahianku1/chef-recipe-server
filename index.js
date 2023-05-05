@@ -8,6 +8,9 @@ let port = process.env.PORT || 5000;
 let url = process.env.URL || "http://localhost";
 app.use(cors());
 
+app.get("/", function (req, res) {
+  res.send("Server Running!");
+});
 app.get("/chef-details", function (req, res) {
   res.send(chefdata);
 });
